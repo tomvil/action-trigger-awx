@@ -1,4 +1,4 @@
-FROM t42x/awxkit_base:21.11.0
+FROM tomvil/awxkit:v1
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
